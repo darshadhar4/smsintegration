@@ -57,6 +57,7 @@ define(
             text: 'done',
             visible: true
         });
+	connection.trigger('ready');
     }
 
     function onGetTokens(tokens) {
